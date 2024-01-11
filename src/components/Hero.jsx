@@ -7,7 +7,7 @@ import {AiOutlineGithub } from "react-icons/ai";
 import {ImLinkedin} from "react-icons/im";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {BiLinkAlt} from "react-icons/bi";
-import davidImG from "../assets/project/David_img.jpg";
+import davidImG from "../assets/profile_pic.jpg";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY Mellon ', "Regional Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: [' SDE at Metamix ', "Regional Level volleyball Player ",'Software Developer ', " Tech Enthusiast "] })
   },[]);
 
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
           <AiOutlineGithub />
         </a>
         <a
-          href="www.linkedin.com/in/pravendra013" target="_blank">
+          href="https://www.linkedin.com/in/pravendra013/" target="_blank">
           <ImLinkedin />
         </a>
         <a

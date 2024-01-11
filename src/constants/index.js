@@ -171,7 +171,7 @@ import {
     {
       name: "Travel",
       description:
-        ", built with Next.js and Tailwind CSS, fuses rapid React development with Tailwind's utility-first styling. Enjoying Next.js advantages like server-rendered pages and dynamic routing, the result is a high-performance, responsive web application with an elegant UI, embodying the best of both frameworks.",
+        "Built with Next.js and Tailwind CSS, fuses rapid React development with Tailwind's utility-first styling. Enjoying Next.js advantages like server-rendered pages and dynamic routing, the result is a high-performance, responsive web application with an elegant UI, embodying the best of both frameworks.",
       // tags: [
       //   {
       //     name: "travel",
